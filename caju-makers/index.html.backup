@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Caju Makers - IFRN | Robótica e Inovação</title>
+    
+    <!-- Google Fonts para um visual mais moderno -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet" />
+    
+    <!-- Font Awesome para ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    
+    <!-- Nosso CSS -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <!-- ===== MENU DE NAVEGAÇÃO ===== -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <span class="logo-icon">🥭</span>
+                <span class="logo-text">Caju Makers</span>
+            </div>
+
+            <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <ul class="menu" id="menu">
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#equipe">Equipe</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#robocup">RoboCup</a></li>
+                <li><a href="#midia">Mídia</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- ===== CONTEÚDO PRINCIPAL ===== -->
+    <main>
+
+        <!-- ===== SEÇÃO: INÍCIO ===== -->
+        <section id="inicio" class="hero">
+            <div class="hero-overlay">
+                <div class="hero-content">
+                    <div class="hero-badge">🏆 IFRN - Robótica</div>
+                    <h1>Caju Makers</h1>
+                    <p>Robótica · Tecnologia · Inovação</p>
+                    <p class="hero-sub">
+                        Transformando ideias em robôs no Instituto Federal do Rio Grande do Norte
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projetos" class="btn btn-primary">
+                            <i class="fas fa-robot"></i> Nossos Projetos
+                        </a>
+                        <a href="#equipe" class="btn btn-secondary">
+                            <i class="fas fa-users"></i> Conheça a Equipe
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== SEÇÃO: EQUIPE ===== -->
+        <section id="equipe" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Quem somos</span>
+                    <h2>Nossa Equipe</h2>
+                    <p class="section-desc">
+                        Somos uma equipe multidisciplinar dedicada ao desenvolvimento de projetos de robótica, 
+                        programação, eletrônica e inovação tecnológica.
+                    </p>
+                </div>
+
+                <div class="equipe-grid">
+                    <!-- Membro 1 -->
+                    <div class="membro-card">
+                        <div class="membro-foto" style="background: #f5b700;">📸</div>
+                        <div class="membro-info">
+                            <h4>Nome do Membro</h4>
+                            <p class="cargo">Coordenador</p>
+                            <p class="descricao">Engenharia de Computação</p>
+                        </div>
+                    </div>
+
+                    <!-- Membro 2 -->
+                    <div class="membro-card">
+                        <div class="membro-foto" style="background: #e6a800;">📸</div>
+                        <div class="membro-info">
+                            <h4>Nome do Membro</h4>
+                            <p class="cargo">Desenvolvedor</p>
+                            <p class="descricao">Programação e Eletrônica</p>
+                        </div>
+                    </div>
+
+                    <!-- Membro 3 -->
+                    <div class="membro-card">
+                        <div class="membro-foto" style="background: #d49900;">📸</div>
+                        <div class="membro-info">
+                            <h4>Nome do Membro</h4>
+                            <p class="cargo">Designer</p>
+                            <p class="descricao">Design e Prototipagem</p>
+                        </div>
+                    </div>
+
+                    <!-- Membro 4 -->
+                    <div class="membro-card">
+                        <div class="membro-foto" style="background: #c38a00;">📸</div>
+                        <div class="membro-info">
+                            <h4>Nome do Membro</h4>
+                            <p class="cargo">Pesquisador</p>
+                            <p class="descricao">Visão Computacional</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="equipe-stats">
+                    <div class="stat">
+                        <span class="stat-number">4+</span>
+                        <span class="stat-label">Integrantes</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">2</span>
+                        <span class="stat-label">Orientadores</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">3</span>
+                        <span class="stat-label">Projetos Ativos</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== SEÇÃO: PROJETOS ===== -->
+        <section id="projetos" class="section section-alt">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Nossos trabalhos</span>
+                    <h2>Projetos</h2>
+                    <p class="section-desc">
+                        Conheça os principais projetos desenvolvidos pela equipe Caju Makers
+                    </p>
+                </div>
+
+                <div class="cards-grid">
+                    <!-- Card 1: Cajuína -->
+                    <div class="card">
+                        <div class="card-icon">🤖</div>
+                        <h3>Cajuína</h3>
+                        <p>
+                            Robô autônomo desenvolvido para competições de robótica, 
+                            com foco em navegação e manipulação de objetos.
+                        </p>
+                        <div class="card-tags">
+                            <span>ROS</span>
+                            <span>Python</span>
+                            <span>Arduino</span>
+                        </div>
+                    </div>
+
+                    <!-- Card 2: RoboCup -->
+                    <div class="card">
+                        <div class="card-icon">🏆</div>
+                        <h3>RoboCup</h3>
+                        <p>
+                            Equipe preparada para competições nacionais e internacionais 
+                            na categoria RoboCup@Work.
+                        </p>
+                        <div class="card-tags">
+                            <span>Competição</span>
+                            <span>Inovação</span>
+                        </div>
+                    </div>
+
+                    <!-- Card 3: Manipulador -->
+                    <div class="card">
+                        <div class="card-icon">🦾</div>
+                        <h3>Manipulador</h3>
+                        <p>
+                            Sistema robótico para manipulação de objetos, com braço mecânico 
+                            e controle por visão computacional.
+                        </p>
+                        <div class="card-tags">
+                            <span>Visão</span>
+                            <span>Controle</span>
+                            <span>Automação</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== SEÇÃO: ROBOCUP 2026 ===== -->
+        <section id="robocup" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Competição</span>
+                    <h2>RoboCup 2026</h2>
+                </div>
+
+                <div class="robocup-grid">
+                    <div class="robocup-info">
+                        <h3>🏆 RoboCup@Work</h3>
+                        <p>
+                            A RoboCup é uma das maiores competições de robótica do mundo. 
+                            A equipe Caju Makers está se preparando para a edição 2026 
+                            na categoria RoboCup@Work, onde robôs autônomos realizam tarefas 
+                            em um ambiente de manufatura simulado.
+                        </p>
+                        <ul class="robocup-features">
+                            <li>
+                                <i class="fas fa-microchip"></i>
+                                <span>Hardware: ROS, OpenCV, Arduino</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-code"></i>
+                                <span>Software: Python, C++, SLAM</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-route"></i>
+                                <span>Navegação: Mapeamento e localização</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-hand"></i>
+                                <span>Manipulação: Braço robótico com garra</span>
+                            </li>
+                        </ul>
+                        <a href="#" class="btn btn-primary">
+                            <i class="fas fa-file-pdf"></i> TDP 2026
+                        </a>
+                    </div>
+
+                    <div class="robocup-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-robot"></i>
+                            <span>Robô em desenvolvimento</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== SEÇÃO: MÍDIA ===== -->
+        <section id="midia" class="section section-alt">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Galeria</span>
+                    <h2>Mídia</h2>
+                    <p class="section-desc">
+                        Fotos e vídeos da equipe e dos projetos
+                    </p>
+                </div>
+
+                <div class="midia-grid">
+                    <div class="midia-item video-destaque">
+                        <div class="midia-content">
+                            <i class="fas fa-play-circle"></i>
+                            <span>Vídeo Promocional</span>
+                            <p>Conheça o Caju Makers</p>
+                        </div>
+                    </div>
+
+                    <div class="midia-item foto">
+                        <div class="midia-content">
+                            <i class="fas fa-image"></i>
+                            <span>Galeria de Fotos</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== SEÇÃO: CONTATO ===== -->
+        <section id="contato" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Fale conosco</span>
+                    <h2>Contato</h2>
+                </div>
+
+                <div class="contato-grid">
+                    <div class="contato-info">
+                        <h3>Entre em contato</h3>
+                        <p>
+                            Quer saber mais sobre nossos projetos ou participar da equipe? 
+                            Entre em contato!
+                        </p>
+
+                        <div class="contato-links">
+                            <a href="#" class="contato-link">
+                                <i class="fab fa-instagram"></i>
+                                <span>@cajumakers</span>
+                            </a>
+                            <a href="#" class="contato-link">
+                                <i class="fab fa-github"></i>
+                                <span>github.com/cajumakers</span>
+                            </a>
+                            <a href="#" class="contato-link">
+                                <i class="fas fa-envelope"></i>
+                                <span>cajumakers@ifrn.edu.br</span>
+                            </a>
+                            <a href="#" class="contato-link">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>IFRN - Campus Natal</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <form class="contato-form" id="contatoForm">
+                        <input type="text" placeholder="Seu nome" required />
+                        <input type="email" placeholder="Seu e-mail" required />
+                        <textarea rows="4" placeholder="Sua mensagem" required></textarea>
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-paper-plane"></i> Enviar mensagem
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ===== RODAPÉ ===== -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <span>🥭 Caju Makers</span>
+                <p>Robótica, tecnologia e inovação no IFRN</p>
+            </div>
+
+            <div class="footer-links">
+                <h4>Navegação</h4>
+                <a href="#inicio">Início</a>
+                <a href="#equipe">Equipe</a>
+                <a href="#projetos">Projetos</a>
+                <a href="#robocup">RoboCup</a>
+            </div>
+
+            <div class="footer-social">
+                <h4>Redes Sociais</h4>
+                <div class="social-icons">
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2026 Caju Makers - IFRN. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- ===== JAVASCRIPT ===== -->
+    <script src="script.js"></script>
+</body>
+</html>
